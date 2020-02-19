@@ -4,6 +4,22 @@
     "namespace": "android_app",
     "package_name": "com.recipe_app",
     "sha256_cert_fingerprints":
-    ["B6:94:02:F5:90:8A:DA:79:F4:B7:E9:12:A0:CA:57:35:FB:88:45:A9:4B:09:84:83:BA:CB:AE:ED:EB:91:C9:1E"]
+    ["7C:90:83:D9:AA:D4:49:BB:B3:89:DB:AF:EA:E1:20:E0:26:EC:5A:CB:E5:FA:BD:DC:FB:5E:64:35:87:28:96:06"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://sign-in.recipe-app.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.recipe_app",
+    "sha256_cert_fingerprints":
+    ["7C:90:83:D9:AA:D4:49:BB:B3:89:DB:AF:EA:E1:20:E0:26:EC:5A:CB:E5:FA:BD:DC:FB:5E:64:35:87:28:96:06"]
   }
 }]
